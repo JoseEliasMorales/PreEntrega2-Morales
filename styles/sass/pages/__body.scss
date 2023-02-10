@@ -1,0 +1,29 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(54, 54, 54), black);
+    h1{
+        text-align: center;
+        color: white;
+    }
+    .platform{
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+        .platform__boxXbox, .platform__boxPlay, .platform__boxNintendo, .platform__boxSteam{
+            width: 200px;
+            display: flex;
+            align-items: center;  
+            border-radius: 15px;
+        }
+        .platform__boxXbox, .platform__boxNintendo{
+            background-color: white;
+        }
+        .platform__boxPlay{
+            background-color: darkblue;
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+@media screen and (min-width: 1140px) {
+    main{
+        .platform{
+            gap: 2px;
+            .platform__boxXbox, .platform__boxPlay, .platform__boxNintendo, .platform__boxSteam{
+                border-radius: 37px;
+            }
+        }
+    }
+}

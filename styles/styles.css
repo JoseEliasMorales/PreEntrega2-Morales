@@ -1,0 +1,69 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(54, 54, 54), black);
+}
+main h1 {
+  text-align: center;
+  color: white;
+}
+main .platform {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+main .platform .platform__boxXbox, main .platform .platform__boxPlay, main .platform .platform__boxNintendo, main .platform .platform__boxSteam {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+main .platform .platform__boxXbox, main .platform .platform__boxNintendo {
+  background-color: white;
+}
+main .platform .platform__boxPlay {
+  background-color: darkblue;
+}
+
+@media screen and (min-width: 1140px) {
+  main .platform {
+    gap: 2px;
+  }
+  main .platform .platform__boxXbox, main .platform .platform__boxPlay, main .platform .platform__boxNintendo, main .platform .platform__boxSteam {
+    border-radius: 37px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
