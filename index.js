@@ -94,7 +94,7 @@ let consulta
 let listaPrecios = []
 let parcial
 let detalle
-let dolar = 335.81
+let dolar = 343.44
 let iva = 21/100
 let pais = 8/100
 let ganancias = 45/100
